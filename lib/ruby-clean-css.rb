@@ -1,4 +1,4 @@
-require 'therubyracer'
+require 'mini_racer'
 require 'commonjs'
 require 'ruby-clean-css/version'
 require 'ruby-clean-css/exports'

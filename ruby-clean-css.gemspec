@@ -13,7 +13,7 @@ Gem::Specification.new do |gem|
   gem.name = 'ruby-clean-css'
   gem.require_paths = ['lib']
   gem.version = RubyCleanCSS::VERSION
-  gem.add_dependency('therubyracer')
+  gem.add_dependency('mini_racer')
   gem.add_dependency('commonjs')
   gem.add_development_dependency('rake')
   gem.add_development_dependency('webmock')

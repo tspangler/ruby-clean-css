@@ -1,27 +1,29 @@
 PATH
   remote: .
   specs:
-    ruby-clean-css (0.0.3)
+    ruby-clean-css (0.0.4)
       commonjs
-      therubyracer
+      mini_racer
 
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.3.6)
+    addressable (2.5.2)
+      public_suffix (>= 2.0.2, < 4.0)
     commonjs (0.2.7)
-    crack (0.4.2)
+    crack (0.4.3)
       safe_yaml (~> 1.0.0)
-    libv8 (3.16.14.3)
-    rake (10.3.2)
-    ref (1.0.5)
-    safe_yaml (1.0.3)
-    therubyracer (0.12.1)
-      libv8 (~> 3.16.14.0)
-      ref
-    webmock (1.18.0)
+    hashdiff (0.3.7)
+    libv8 (6.3.292.48.1)
+    mini_racer (0.1.15)
+      libv8 (~> 6.3)
+    public_suffix (3.0.1)
+    rake (12.3.0)
+    safe_yaml (1.0.4)
+    webmock (3.2.1)
       addressable (>= 2.3.6)
       crack (>= 0.3.2)
+      hashdiff
 
 PLATFORMS
   ruby
@@ -30,3 +32,6 @@ DEPENDENCIES
   rake
   ruby-clean-css!
   webmock
+
+BUNDLED WITH
+   1.15.4
